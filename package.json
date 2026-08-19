@@ -1,0 +1,44 @@
+{
+  "name": "gongwen-dsh",
+  "version": "1.0.0",
+  "description": "智能公文写作（国企38类文种）DeepSeek Harness 插件——0知识库，全部知识在线调取。免费10次/7天；2元/次或399元包年；终身名额前10个399元（剩6个）。",
+  "type": "module",
+  "main": "dsh/index.js",
+  "exports": {
+    ".": "./dsh/index.js",
+    "./dsh": "./dsh/index.js",
+    "./client": "./dsh/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dsh",
+    "skills",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "gongwen",
+    "公文写作",
+    "国企公文",
+    "机关公文",
+    "GB/T 9704",
+    "official-document",
+    "skill"
+  ],
+  "license": "MIT",
+  "author": "Yourtsao"
+}
