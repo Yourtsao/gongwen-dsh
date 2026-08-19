@@ -1,0 +1,4 @@
+# gongwen-dsh bundle 插件层：挂载智能公文写作 skill
+- insert:
+    - id: gongwen-dsh
+      name: gongwen-dsh
