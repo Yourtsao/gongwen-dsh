@@ -1,5 +1,7 @@
 {
   "GATEWAY_URL": "https://gongwen-api.xyz",
   "USER_TOKEN": null,
-  "EMAIL": null
+  "EMAIL": null,
+  "free_quota": 10,
+  "free_valid_days": 7
 }
