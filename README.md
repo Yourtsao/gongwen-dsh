@@ -1,5 +1,7 @@
 # gongwen-dsh — 智能公文写作（DeepSeek Harness 插件）
 
+[![DSH Market](https://raw.githubusercontent.com/2BingLing/dsh-market/master/assets/readme/badge-listed-zh.svg)](https://dsh.market/?q=Yourtsao%2Fgongwen-dsh)
+
 **体制内办公室主任（博士）自学编程，结合十余年经验研发，童叟无欺，用了就知道。**
 
 面向办公室文秘岗位的 AI 公文写作插件，覆盖 38 类常用公文文种（请示、报告、总结、讲话稿、纪要、通知、函、意见、通报、批复、决定、方案、计划、述职、调研、党课、简报、致辞、主持词、贺信、倡议、申请、检讨、制度等）。
