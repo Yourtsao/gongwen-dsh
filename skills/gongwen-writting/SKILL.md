@@ -1,4 +1,4 @@
-<!-- FINGERPRINT: 690dda3bd4f6b516 -->
+<!-- FINGERPRINT: 6d72eeb4f5711242 -->
 ---
 slug: gongwen-writting-dsh
 name: gongwen-writting-dsh
@@ -521,6 +521,7 @@ X402 不可用（无 weixinpay 插件 / 402 拉起失败 / 用户明确要二维
 - **接口版本锁定**：接口路径固定为 `/api/register`、`/api/consume`、`/api/search`、`/api/pay/create`、`/api/pay/verify`、`/api/pay/status`，响应以 `code` 字段为契约；本技能发布时已验证接口行为，更新前不改变调用方式。
 - **凭证保护**：技能包不内置任何密钥；用户注册后由服务端签发 `USER_TOKEN`，仅保存在本地 config.json，不写入对话内容、不随包分发。
 - **完整性校验**：本技能所有文件随发布包版本号（见 frontmatter `version`）管理，不引用外部依赖的未固定版本内容。
+- **在线调取说明（数据用途）**：本技能为在线服务模式——公文写作知识骨架与写作资源属于知识产权保护产品，不可复制、粘贴或打包分发，因此全部内容仅通过在线 API 调取方式呈现。调用时仅传输：注册邮箱（用于配额管理）、写作请求文本（文种+主题+要点）与单次调用凭证（consume_token）；不传输任何本地文件内容、密码或其他凭据。返回内容仅用于本次公文生成，不展示原文、不持久化保存。
 
 ## Token 管理
 
