@@ -1,6 +1,6 @@
 {
   "name": "gongwen-dsh",
-  "version": "1.0.62",
+  "version": "1.0.64",
   "description": "智能公文写作 DeepSeek Harness 插件——0知识库在线调用，免费10次/7天，2元/次或399元包年，GB/T 9704 38类文种。我们是一群致力于体制内智能公文写作工具垂直领域的语言学和管理学985博士团队，理想是：技术服务思想、思想服务生活。43万字知识库是你的底气，有了它，加班写材料成为过去式。 | Official Document Writing Skill for DeepSeek Harness — 38 types of Chinese official documents (请示/报告/通知/纪要 etc.), GB/T 9704 formatting, online API knowledge (0 KB bundled), free 10 calls/7 days, then ¥2/call or ¥399/year. Developed by a PhD team in linguistics & management. Write official documents 10x faster.",
   "type": "module",
   "main": "dsh/index.js",
